@@ -25,11 +25,9 @@ def queue_markup(
         ],
          [
             InlineKeyboardButton(
-                text="🥀 ᴏᴡɴᴇʀ 🥀", user_id=config.OWNER_ID",
-            ),
+                text="🥀 ᴏᴡɴᴇʀ 🥀", user_id=config.OWNER_ID),
             InlineKeyboardButton(
-                text="🥀 ᴜᴘᴅᴀᴛᴇ 🥀", url=config.SUPPORT_CHANNEL,
-            ),
+                text="🥀 ᴜᴘᴅᴀᴛᴇ 🥀", url=config.SUPPORT_CHANNEL),
         ],
     ]
     dur = [
@@ -51,11 +49,9 @@ def queue_markup(
         ],
          [
             InlineKeyboardButton(
-                text="🥀 ᴏᴡɴᴇʀ 🥀", user_id=config.OWNER_ID",
-            ),
+                text="🥀 ᴏᴡɴᴇʀ 🥀", user_id=config.OWNER_ID),
             InlineKeyboardButton(
-                text="🥀 ᴜᴘᴅᴀᴛᴇ 🥀", url=config.SUPPORT_CHANNEL,
-            ),
+                text="🥀 ᴜᴘᴅᴀᴛᴇ 🥀", url=config.SUPPORT_CHANNEL),
         ],
     ]
     upl = InlineKeyboardMarkup(not_dur if DURATION == "Unknown" else dur)
@@ -77,11 +73,9 @@ def queue_back_markup(_, CPLAY):
            ],
              [
             InlineKeyboardButton(
-                text="🥀 ᴏᴡɴᴇʀ 🥀", user_id=config.OWNER_ID",
-            ),
+                text="🥀 ᴏᴡɴᴇʀ 🥀", user_id=config.OWNER_ID),
             InlineKeyboardButton(
-                text="🥀 ᴜᴘᴅᴀᴛᴇ 🥀", url=config.SUPPORT_CHANNEL,
-            ),
+                text="🥀 ᴜᴘᴅᴀᴛᴇ 🥀", url=config.SUPPORT_CHANNEL),
         ],
         ]
     )
@@ -98,11 +92,9 @@ def aq_markup(_, chat_id):
         #],
          [
             InlineKeyboardButton(
-                text="🥀 ᴏᴡɴᴇʀ 🥀", user_id=config.OWNER_ID",
-            ),
+                text="🥀 ᴏᴡɴᴇʀ 🥀", user_id=config.OWNER_ID),
             InlineKeyboardButton(
-                text="🥀 ᴜᴘᴅᴀᴛᴇ 🥀", url=config.SUPPORT_CHANNEL,
-            ),
+                text="🥀 ᴜᴘᴅᴀᴛᴇ 🥀", url=config.SUPPORT_CHANNEL),
         ],
     ]
     return buttons
