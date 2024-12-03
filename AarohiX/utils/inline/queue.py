@@ -25,10 +25,10 @@ def queue_markup(
         ],
          [
             InlineKeyboardButton(
-                text="🥀 ᴏᴡɴᴇʀ 🥀", url=f"tg://openmessage?user_id={OWNER_ID}",
+                text="🥀 ᴏᴡɴᴇʀ 🥀", user_id=config.OWNER_ID",
             ),
             InlineKeyboardButton(
-                text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=SUPPORT_CHAT,
+                text="🥀 ᴜᴘᴅᴀᴛᴇ 🥀", url=config.SUPPORT_CHANNEL,
             ),
         ],
     ]
@@ -51,10 +51,10 @@ def queue_markup(
         ],
          [
             InlineKeyboardButton(
-                text="🥀 ᴏᴡɴᴇʀ 🥀", url=f"tg://openmessage?user_id={OWNER_ID}",
+                text="🥀 ᴏᴡɴᴇʀ 🥀", user_id=config.OWNER_ID",
             ),
             InlineKeyboardButton(
-                text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=SUPPORT_CHAT,
+                text="🥀 ᴜᴘᴅᴀᴛᴇ 🥀", url=config.SUPPORT_CHANNEL,
             ),
         ],
     ]
@@ -77,10 +77,10 @@ def queue_back_markup(_, CPLAY):
            ],
              [
             InlineKeyboardButton(
-                text="🥀 ᴏᴡɴᴇʀ 🥀", url=f"tg://openmessage?user_id={OWNER_ID}",
+                text="🥀 ᴏᴡɴᴇʀ 🥀", user_id=config.OWNER_ID",
             ),
             InlineKeyboardButton(
-                text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=SUPPORT_CHAT,
+                text="🥀 ᴜᴘᴅᴀᴛᴇ 🥀", url=config.SUPPORT_CHANNEL,
             ),
         ],
         ]
@@ -98,10 +98,10 @@ def aq_markup(_, chat_id):
         #],
          [
             InlineKeyboardButton(
-                text="🥀 ᴏᴡɴᴇʀ 🥀", url=f"tg://openmessage?user_id={OWNER_ID}",
+                text="🥀 ᴏᴡɴᴇʀ 🥀", user_id=config.OWNER_ID",
             ),
             InlineKeyboardButton(
-                text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=SUPPORT_CHAT,
+                text="🥀 ᴜᴘᴅᴀᴛᴇ 🥀", url=config.SUPPORT_CHANNEL,
             ),
         ],
     ]
