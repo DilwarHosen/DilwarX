@@ -91,14 +91,14 @@ async def greet_group(_, member: ChatMemberUpdated):
             member.chat.id,
             photo=welcomeimg,
             caption=f"""
-Wᴇʟᴄᴏᴍᴇ Tᴏ {member.chat.title}
+𝗪𝗲𝗹𝗰𝗼𝗻𝗲 𝗧𝗼 {member.chat.title}
 ➖➖➖➖➖➖➖➖➖➖➖➖
-Nᴀᴍᴇ ✧ {user.mention}
-Iᴅ ✧ {user.id}
-Usᴇʀɴᴀᴍᴇ ✧ @{user.username}
+𝗡𝗮𝗺𝗲 ✧ {user.mention}
+𝗜𝗗 ✧ {user.id}
+𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲 ✧ @{user.username}
 ➖➖➖➖➖➖➖➖➖➖➖➖
 """,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"⦿ ᴀᴅᴅ ᴍᴇ ⦿", url=f"https://t.me/Alone_Dil_bot?startgroup=true")]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"⦿ 𝗔𝗱𝗱 𝗠𝗲 ⦿", url=f"https://t.me/AloneXMusicBot?startgroup=true")]])
         )
     except Exception as e:
         LOGGER.error(e)
