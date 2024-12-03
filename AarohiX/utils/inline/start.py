@@ -30,7 +30,7 @@ def private_panel(_):
             InlineKeyboardButton(text=_["S_B_6"], url=config.SUPPORT_CHANNEL),
         ],
         [
-            InlineKeyboardButton(text=_["S_B_5"], url=f"https://t.me/Itzz_AloneX"),
+            InlineKeyboardButton(text=_["S_B_5"], user_id=config.OWNER_ID),
             InlineKeyboardButton(text=_["S_B_7"], callback_data="gib_source"),
         ],
         [
